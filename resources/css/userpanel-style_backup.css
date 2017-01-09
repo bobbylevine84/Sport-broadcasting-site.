@@ -1,0 +1,229 @@
+
+.signup-pg, .signin-pg {
+	border-radius:3px;
+	background-color:#fff;
+	margin-top:50px;
+	margin-bottom:50px;
+	box-shadow:0 0 2px 2px rgba(0,0,0,0.025);	
+}
+
+.signin-signup {
+	padding:0px;
+}
+
+.signup-pg {
+	width:720px;
+	padding:10px 60px;
+}
+
+.signup-pg .panel-default {
+	border:none;
+	box-shadow:none ;
+	border-radius:0px;
+}
+
+.header-right {
+	padding:20px 20px 0;	
+}
+
+.h-icon {
+	font-size:13px;
+	padding-left:15px;	
+}
+
+.h-icon a {	
+	font-family:'Open Sans';	
+}
+
+.formlinebreak {
+	padding:15px 0;
+}
+
+.quote-b {
+	padding-bottom:2px;
+	font-size:12px;	
+}
+
+.text-blue {
+	color:#2f6f9f;	
+}
+
+.contactus {
+	position:relative;
+	top:-15px;
+	padding-left:20px;
+}
+
+.header-search-outer {
+	position:relative;	
+}
+
+.header-search {
+	border-radius:16px !important;
+	padding-left:24px;
+	padding-right:16px;
+}
+
+.b-search {
+	position:absolute !important;
+	left:8px;
+	width:auto !important;
+	padding:0;
+	top:5px;
+	z-index:10;
+}
+
+
+/* User Panel -- Coloring */
+
+.bg-black .nav-primary > ul.nav-main > li:hover > a, .bg-black .nav-primary > ul.nav-main > li:focus > a, .bg-black .nav-primary > ul.nav-main > li:active > a, .bg-black .nav-primary > ul.nav-main > li.active > a {
+	background-color:#001f30 !important;	
+}
+
+.bg-black .nav > li > a:hover, .bg-black .nav > li > a:focus {
+	background-color:#001f30 !important;			
+}
+
+.bg-danger {
+	background:#ff8518 !important;
+}
+
+.text-info-dk {
+	color:#96d9ff;	
+}
+
+.text-success-dk {
+	color:#10c45c;	
+}
+
+.bg-black {
+	background:#003451;
+}
+
+.bg-black .nav > li > a {
+	color:#eef;	
+}
+
+.bg-black .text-muted {
+	color:#aeacb0 !important;	
+}
+
+.bg-black.dk, .bg-black .dk {
+	background:#001f30;	
+}
+
+.bg-black.dker, .bg-black .dker {
+	background:#eee;	
+}
+
+.avatar i.on {	
+	background-color:#10c45c;
+}
+
+.bg-black .text-lt {
+	color:#caddff !important;	
+}
+
+.bg-black .nav > li > a {
+	font-weight:700px;	
+}
+
+.bg-black .icon-muted {
+	color:#93999c !important;	
+}
+
+.bg-success {
+	background:#10c45c;		
+}
+
+.bg-info {
+	color:#fff;
+	background:#10c45c;	
+}
+
+.text-success-lt {
+	color:#10c45c;
+}
+
+.text-warning {
+	color:#ff8518 !important;
+}
+
+.confirm-bx {
+	padding:15px 0;	
+}
+
+.confirm-info {
+	border-bottom:1px dotted #aaa;
+	padding:0 15px;
+	line-height:20px;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:14px;	
+}
+
+.confirm-data {
+	background:url(../images/wavylines.png) repeat top center #f5fafd;
+	margin:15px 0;
+	border:2px dashed #e0e0e7;
+	padding:14px 30px;
+	border-radius:3px;
+	box-shadow:2px 2px 2px rgba(0,0,0,0.05);	
+}
+
+.confirm-date {
+	width:40px;
+	float:right;
+}
+
+.confirm-date-1 {
+	width:140px;	
+	float:right;
+	margin:0 12px;
+}
+
+.currency-n {
+	padding-top:4px;
+	padding-bottom:18px;
+}
+
+.currency-t {
+	padding-top:6px;
+}
+
+.currency-outer {
+	margin:14px 0 2px;
+}
+
+#wizardform .panel-body .line {
+	display:none;
+}
+
+.table-responsive a {
+	color:#2996cf;	
+}
+
+.curr-transactions .sparkline {
+	padding:30px 0 50px;	
+}
+
+.all-transactions .panel-heading {
+	padding:5px 15px;	
+}
+
+.panel-btn a.btn {
+	border-radius:0px;
+	padding:12px 20px;
+}
+
+.wallet-btn a {
+	margin:10px auto 10px;
+	box-sizing:border-box;	
+	width:80%;
+	color:#fff;
+}
+
+
+
+
+
+

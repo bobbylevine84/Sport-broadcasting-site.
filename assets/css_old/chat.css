@@ -1,0 +1,107 @@
+ 
+/* CSS Document */
+@font-face
+{
+    font-family: "Arial";
+} 
+body {
+    font:13px Arial;
+    color: #6E6E6E;
+    text-align:center;
+    padding:35px; 
+    background-color: #424242;
+}
+ 
+form, p, span 
+{
+    margin:0;
+    padding:0;
+	}
+ 
+* { 
+    font-family: "Arial";
+    }
+ 
+a {
+    color:#0000FF;
+    text-decoration:none; }
+ 
+    a:hover { text-decoration:underline; }
+ 
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:20px;
+    padding: 15px;
+    text-align: left;
+    background:#EFFBEF;
+    width:904px;
+    border:1px solid #E6E6E6; 
+    border-radius: 6px;
+    box-shadow: 9px 5px 11px #B5C1C5, 0 0 0 10px #EFFBEF inset;
+    }
+ 
+#loginform { padding-top:18px; }
+ 
+    #loginform p { margin: 5px; }
+ 
+#chatboxgroup {
+    text-align:left;
+    margin:0 auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+    padding:10px;
+    background:#fff;
+    height:280px;
+    width:750px;
+    border:1px solid #E6E6E6;
+    overflow:auto; 
+    float: left;
+}
+ 
+#chat-msg{
+    margin:0 auto;
+    height:auto;
+    width:970px;
+    overflow:auto; 
+} 
+
+#chat-users{
+    text-align:left;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    background:#fff;
+    height:280px;
+    width:100px;
+    border:1px solid #E6E6E6;
+    overflow:auto; 
+    float: right;
+}
+
+#usermsg {
+    background:#fff;
+    width:900px;
+    height:50px;
+    resize: none;
+    border:1px solid #E6E6E6; 
+}
+
+.footer
+{
+    font-size: 10px;
+    width:auto;
+    height:20px;
+    text-align:center;
+}
+
+#submit { width: 60px; }
+ 
+.error { color: #ff0000; }
+ 
+.welcome { float:left; font-size: 14px; }
+ 
+.logout { float:right; }
+ 
+.msgln { margin:0 0 2px 0; }
+ 
+ 

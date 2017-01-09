@@ -1,0 +1,7 @@
+[25-Jan-2015 05:45:37 Asia/Karachi] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::str_replace() in /home/blackbullmarkets/public_html/admin/application/models/slider/mod_slider.php on line 113
+[25-Jan-2015 05:47:50 Asia/Karachi] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::str_replace() in /home/blackbullmarkets/public_html/admin/application/models/slider/mod_slider.php on line 113
+[25-Jan-2015 06:14:21 Asia/Karachi] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::str_replace() in /home/blackbullmarkets/public_html/admin/application/models/slider/mod_slider.php on line 113
+[28-Jan-2015 16:49:23 Asia/Karachi] PHP Parse error:  syntax error, unexpected '}' in /home/blackbullmarkets/public_html/admin/application/views/common/left_nav_panel.php on line 82
+[28-Jan-2015 17:13:31 Asia/Karachi] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::str_replace() in /home/blackbullmarkets/public_html/admin/application/models/slider/mod_slider.php on line 113
+[18-Feb-2015 14:29:42 Asia/Karachi] PHP Fatal error:  Call to undefined method mod_menu::retrieve_buttons() in /home/blackbullmarkets/public_html/admin/application/controllers/menu/manage_buttons.php on line 541
+[18-Feb-2015 14:33:18 Asia/Karachi] PHP Fatal error:  Call to undefined method mod_menu::retrieve_buttons() in /home/blackbullmarkets/public_html/admin/application/controllers/menu/manage_buttons.php on line 541

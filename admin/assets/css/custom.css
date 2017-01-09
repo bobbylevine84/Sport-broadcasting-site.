@@ -1,0 +1,165 @@
+/* Author: Louis Holladay
+
+ * Website: AdminDesigns.com
+
+ * Last Updated: 02/01/14 
+
+ * Copyright 2014 Admin Designs
+
+=================================================
+
+ * This file is reserved for changes made by 
+
+ * the user. It's often times a good idea to 
+
+ * seperate your changes from the themes core.
+
+ * It makes modifications, and future theme
+
+ * updates much easier to apply.
+
+================================================= */
+
+/* These styles have been placed here for as 
+
+ * they have a high chance of needing to be
+
+ * changed if one decides to modify the header
+
+-----------------------------------------------*/
+
+/* Navbar bottom border disabled by default */
+
+.navbar {
+
+  border-bottom: 1px solid transparent; }
+
+
+
+/* Header button states - text colors */
+
+.header-btns > div > button:focus {
+
+  color: #666; }
+
+
+
+.header-btns > div > button:hover {
+
+  color: #0094d2; }
+
+
+
+/* Sidebar menu item states - background colors */
+
+/* top level*/
+
+/* Submenu item level */
+
+/* Place your custom styles or styles which 
+
+ * have been generated with the customization 
+
+ * tool below this line. 
+
+-----------------------------------------------*/
+/*style 6 css */
+.socialicons {
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+.socialicons ul {
+	display: inline;
+}
+.socialicons ul li {
+	list-style:none;
+	float: left;
+}
+.socialicons .fb {
+	background: url(../../../uploads/social_icons/style_icons_6.png) no-repeat;
+	width: 40px;
+	height: 40px;
+	background-position: 0 -37px;
+}
+.socialicons .fb:hover {
+	background-position: 0 2px;
+	cursor: pointer;
+}
+.socialicons .tw {
+	background: url(../../../uploads/social_icons/style_icons_6.png) no-repeat;
+	width: 40px;
+	height: 40px;
+	background-position: 0 -116px;
+}
+.socialicons .tw:hover {
+	background-position: 0 -76px;
+	cursor: pointer;
+}
+
+.socialicons .tube {
+	background: url(../../../uploads/social_icons/style_icons_6.png) no-repeat;	
+	width: 40px;
+	height: 40px;
+	background-position: 0 -274px;
+}
+.socialicons .tube:hover {
+	background-position: 0 -234px;
+	cursor: pointer;
+}
+
+.socialicons .gp {
+	background: url(../../../uploads/social_icons/style_icons_6.png) no-repeat;	
+	width: 40px;
+	height: 40px;
+	background-position: 0 -355px;
+}
+.socialicons .gp:hover {
+	background-position: 0 -314px;
+	cursor: pointer;
+}
+#open-live-account{
+						background: url("../../../uploads/social_icons/BUTTON2.png");
+						background-position: 0px 0px;
+						background-repeat: repeat-x;
+						color: #ffffff;
+						vertical-align: middle;
+						padding: 20px 20px;
+						height: 65px !important;
+						margin-top:10px;
+						font-size:22px;
+						font-family:"Open Sans",sans-serif;
+						line-height:1.22857;
+						border:0px;
+						text-decoration:none;
+						margin-top:3px;
+						float:left;
+						border-radius:3px;
+						}
+#open-live-account:hover{
+						border-top:1px #4335EE solid;
+						border-left:1px #4335EE solid;
+					}
+#open-demo-account{
+		background: url("../../../uploads/social_icons/BUTTON3.png");
+						background-position: 0px 0px;
+						background-repeat: repeat-x;
+						color: #ffffff;
+						vertical-align: middle;
+						padding: 20px 20px;
+						height: 65px !important;
+						margin-top:10px;
+						font-size:22px;
+						font-family:"Open Sans",sans-serif;
+						line-height:1.22857;
+						border:0px;
+						text-decoration:none;
+						margin-top:3px;
+						float:left;
+						border-radius:3px;
+						}
+#open-demo-account:hover{
+						border-top:1px #2A1F00 solid;
+						border-left:1px #2A1F00 solid;
+					}
+#open-account-buttons{height: 65px;}

@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+#dashboard-bg {background: #e3e3e3 url(../images/dashboard-bg.jpg) no-repeat top center}
+/* dashboard header */
+#dashboard-header {}
+#dashboard-header .top-header {background:#231f20}
+#dashboard-header .top-header ul {float:right}
+#dashboard-header .top-header li {float:left; padding:7px 7px; background: url(../images/innerbg.jpg) no-repeat right 12px}
+#dashboard-header .top-header li a {color:#FFF; font-size:11px; text-decoration:none}
+#dashboard-header .top-header li a:hover {color:#bbef17}
+#dashboard-header .top-header li:last-child {background:none; padding-right:0}
+#dashboard-header .main-header {padding:15px 0 14px 0; border-bottom:3px solid #000}
+#dashboard-header .main-header .dashboard-nav {padding:12px 0}
+#dashboard-header .main-header .dashboard-nav li {float:left; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background:#efecec; padding:9px 7px; margin-right:14px; width:95px ; margin-bottom:5px}
+#dashboard-header .main-header .dashboard-nav li a {font-size:14px; color:#231f20; text-decoration:none}
+#dashboard-header .main-header .dashboard-nav li:hover {background:#bbef17}
+#dashboard-header .main-header .dashboard-nav li:last-child {margin-right:0}
+#dashboard-header .main-header .logout-wraper {padding:9px 0; text-align:right}
+#dashboard-header .main-header .logout-wraper p {padding:0 0 5px 0; font-size:16px}
+
+/* dashboard main page */
+#dashboard-home {padding:45px 0}
+/* left conetnt */
+#dashboard-home .dashboard-left li {}
+.dashboard-left .listing-wraper li:nth-child(1){
+	background: url(../images/innerbg.jpg) 50% 50% no-repeat transparent;
+	opacity: 0.9
+}
+
+.dashboard-left .listing-wraper li:nth-child(1):hover{
+	background: url(../images/innerbg.jpg) 50% 50% no-repeat transparent;
+	opacity: 1;
+	  text-decoration:none;
+  transition:ease-in 0.3s;
+  -moz-transition:ease-in 0.3s;
+  -webkit-transition:ease-in 0.3s;
+  -ms-transition:ease-in 0.3s;
+  -o-transition:ease-in 0.3s;
+}
+
+.dashboard-left .listing-wraper li:nth-child(2){
+	background:url(../images/innerbg.jpg) 50% 50% no-repeat transparent;
+	opacity: 0.7
+}
+
+
+.dashboard-left .listing-wraper li:nth-child(2):hover{
+	background:url(../images/challenge2.jpg) 50% 50% no-repeat transparent;
+	opacity: 1;
+	  text-decoration:none;
+  transition:ease-in 0.3s;
+  -moz-transition:ease-in 0.3s;
+  -webkit-transition:ease-in 0.3s;
+  -ms-transition:ease-in 0.3s;
+  -o-transition:ease-in 0.3s;
+}
+
+.dashboard-left .listing-wraper li:nth-child(3){
+	background: url(../images/challenge3.jpg) 50% 50% no-repeat transparent;
+	opacity: 0.7
+}
+
+.dashboard-left .listing-wraper li:nth-child(3):hover{
+	background:url(../images/challenge3.jpg) 50% 50% no-repeat transparent;
+	opacity: 1;
+	  text-decoration:none;
+  transition:ease-in 0.3s;
+  -moz-transition:ease-in 0.3s;
+  -webkit-transition:ease-in 0.3s;
+  -ms-transition:ease-in 0.3s;
+  -o-transition:ease-in 0.3s;
+}
+.dashboard-left .listing-wraper li:nth-child(4){
+	background: url(../images/challenge4.jpg) 50% 50% no-repeat transparent;
+	opacity: 0.7
+}
+
+.dashboard-left .listing-wraper li:nth-child(4):hover{
+	background:url(../images/challenge4.jpg) 50% 50% no-repeat transparent;
+	opacity: 1;
+	  text-decoration:none;
+  transition:ease-in 0.3s;
+  -moz-transition:ease-in 0.3s;
+  -webkit-transition:ease-in 0.3s;
+  -ms-transition:ease-in 0.3s;
+  -o-transition:ease-in 0.3s;
+}
+.dashboard-left .listing-wraper li .product-button{
+	text-align:center;
+	padding-top:40px;
+	padding-bottom:87px;
+	
+}
+
+.dashboard-left .listing-wraper li .product-button a{
+	background-color: #000000;
+	-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+	font-size:15px;
+	text-transform:uppercase; 
+	padding:15px;
+	text-decoration:none;
+	color:#bbef17;
+	font-weight:bold;
+	
+}
+.dashboard-left .listing-wraper li .match-heading{
+	font-family: 'Raleway', sans-serif;
+	font-size:28px;
+	color:#FFF;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+	padding-top:87px;
+	padding-bottom:0px;
+	
+}
+/* locker room conetnt */
+.locker-wrapper {background:#231f20}
+.locker-wrapper .locker-heading {background:#bbef17; font-family: 'Raleway', sans-serif; font-size:24px; font-weight:bold; color:#000000; text-align:center; padding:10px 0}
+.chat-box {padding:0 30px}
+.chat-box li {border-bottom:1px solid #545051; padding:11px 0}
+.chat-box .img-thumbnail {border:none; padding:0; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px}
+.chat-box h4 {font-family: 'Raleway', sans-serif; font-size:14px; color:#bbef17; font-weight:bold; text-transform:uppercase; padding:10px 0 10px 15px}
+.chat-box h4 span {color:#ffffff; font-size:12px; font-weight:normal}
+.chat-box p {color:#ffffff; font-size:13px; font-weight:normal; padding-left:15px}
+.chat-box .date-box {padding:17px 0}
+.chat-box .date-box p {font-size:11px !important}
+.chat-box .col-lg-1, .chat-box .col-lg-10, .chat-box .col-lg-11, .chat-box .col-lg-12, .chat-box .col-lg-2, .chat-box .col-lg-3, .chat-box .col-lg-4, .chat-box .col-lg-5, .chat-box .col-lg-6, .chat-box .col-lg-7, .chat-box .col-lg-8, .chat-box .col-lg-9, .chat-box .col-md-1, .chat-box .col-md-10, .chat-box .col-md-11, .chat-box .col-md-12, .chat-box .col-md-2, .chat-box .col-md-3, .chat-box .col-md-4, .chat-box .col-md-5, .chat-box .col-md-6, .chat-box .col-md-7, .chat-box .col-md-8, .chat-box .col-md-9, .chat-box .col-sm-1, .chat-box .col-sm-10, .chat-box .col-sm-11, .chat-box .col-sm-12, .chat-box .col-sm-2, .chat-box .col-sm-3, .chat-box .col-sm-4, .chat-box .col-sm-5, .chat-box .col-sm-6, .chat-box .col-sm-7, .chat-box .col-sm-8, .chat-box .col-sm-9, .chat-box .col-xs-1, .chat-box .col-xs-10, .chat-box .col-xs-11, .chat-box .col-xs-12, .chat-box .col-xs-2, .chat-box .col-xs-3, .chat-box .col-xs-4, .chat-box .col-xs-5, .chat-box .col-xs-6, .chat-box .col-xs-7, .chat-box .col-xs-8, .chat-box .col-xs-9 {padding-left:0; padding-right:0}
+.chat-form {background:#FFF; height:44px; margin:11px 0 10px 0}
+.chat-form .left-input input[type='text'] {float:left; color:#818081; width:80%; border:none; height:44px; padding:0 15px; line-height:40px}
+.chat-form .left-input input[type='submit'] {float:left; color:#231f20; font-size:16px; font-weight:bold; text-transform:uppercase; width:20%; background:#bbef17; border:none; height:44px; padding:0 15px; line-height:40px}
+
+/* CSS mediaquries */
+
+@media (max-width:1200px){
+	#dashboard-header .main-header .logo-wraper{padding:20px 0}
+	#dashboard-header .main-header .dashboard-nav {0}
+	#dashboard-header .main-header .logout-wraper {padding:20px 0}
+	.dashboard-left .listing-wraper li .match-heading {padding-top:57px}
+	.dashboard-left .listing-wraper li .product-button {padding-bottom:57px}
+	.chat-box li {padding:6px 0 0 0}
+	.chat-box h4 {padding-top:5px}
+
+}
+@media (max-width:992px) {
+	.chat-box li {padding:6px 0 5px 0}
+	.chat-box h4 {padding:3px 0 0 10px; font-size:12px}
+	.chat-box p {padding:3px 0 0 10px; font-size:12px}
+	.chat-box .date-box {padding:0}
+	.chat-box .date-box p {float:left; padding:5px 0 5px 0 !important}
+	.chat-form .left-input input[type="text"] {width:70%}
+	.chat-form .left-input input[type="submit"] {width:30%}
+	.dashboard-left .listing-wraper li .match-heading {font-size:24px}
+	.dashboard-left .listing-wraper li .product-button a {font-size:14px}
+}
+
+@media screen and (max-width: 590px){
+	#dashboard-header .main-header .dashboard-nav li {width:82px}
+	#dashboard-header .main-header .dashboard-nav li a {font-size:12px}
+	#dashboard-header .main-header .logo-wraper {padding:5px 0}
+	#dashboard-header .main-header .logout-wraper {text-align:left} 
+	#dashboard-header .main-header .logout-wraper {padding:10px 0 0 0}
+	.chat-box .col-lg-1, .chat-box .col-lg-10, .chat-box .col-lg-11, .chat-box .col-lg-12, .chat-box .col-lg-2, .chat-box .col-lg-3, .chat-box .col-lg-4, .chat-box .col-lg-5, .chat-box .col-lg-6, .chat-box .col-lg-7, .chat-box .col-lg-8, .chat-box .col-lg-9, .chat-box .col-md-1, .chat-box .col-md-10, .chat-box .col-md-11, .chat-box .col-md-12, .chat-box .col-md-2, .chat-box .col-md-3, .chat-box .col-md-4, .chat-box .col-md-5, .chat-box .col-md-6, .chat-box .col-md-7, .chat-box .col-md-8, .chat-box .col-md-9, .chat-box .col-sm-1, .chat-box .col-sm-10, .chat-box .col-sm-11, .chat-box .col-sm-12, .chat-box .col-sm-2, .chat-box .col-sm-3, .chat-box .col-sm-4, .chat-box .col-sm-5, .chat-box .col-sm-6, .chat-box .col-sm-7, .chat-box .col-sm-8, .chat-box .col-sm-9, .chat-box .col-xs-1, .chat-box .col-xs-10, .chat-box .col-xs-11, .chat-box .col-xs-12, .chat-box .col-xs-2, .chat-box .col-xs-3, .chat-box .col-xs-4, .chat-box .col-xs-5, .chat-box .col-xs-6, .chat-box .col-xs-7, .chat-box .col-xs-8, .chat-box .col-xs-9 {padding-left:0; padding-right:0}
+.locker-wrapper {margin:30px -15px}
+.locker-wrapper 
+	.chat-box h4 {padding:6px 0 0 0; font-size:12px}
+	.chat-box p {padding:3px 0 0 0; font-size:12px}
+	
+	.footer-wraper .about-wraper .about-socail a {margin:0 75px 0 0 }
+	
+
+
+}
+
+
+
+@media screen and (max-width: 460px){
+	
+	
+}
+
+/* CSS mediaquries */
+	

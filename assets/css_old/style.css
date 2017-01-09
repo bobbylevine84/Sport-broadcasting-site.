@@ -1,0 +1,222 @@
+
+/*=======================================================
+      THEME STYLING START
+========================================================*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #FFF;
+	font-weight: normal;
+	position: relative;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*=======================================================
+      HEADINGS
+========================================================*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #333333;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+}
+ul, ol, li {list-style:none}
+.container {padding-left:0; padding-right:0}
+/*===== header =====*/
+.navbar {min-height:112px; background:#F00; margin-bottom:0; padding:8px 0; background:url(../images/header-border.jpg) bottom center repeat-x}
+.navbar-brand {height:auto; padding:0 70px 0 0; line-height:none}
+.navbar-collapse.collapse {padding:30px 0 15px 0}
+.navbar-default .navbar-nav > li > a {color:#676767; font-size:15px; font-weight:400; padding:10px 15px}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	background:#298dd0; -webkit-border-radius: 5px; -moz-border-radius: 5px;   border-radius: 5px; color:#FFF
+}
+.navbar-default .navbar-nav li a:hover {
+	background:#298dd0; -webkit-border-radius: 5px; -moz-border-radius: 5px;   border-radius: 5px; color:#FFF
+}
+.right-nav-btn { padding:0; margin:22px 0}
+.right-nav-btn li { float:left; margin-left:29px;}
+.right-nav-btn li a { float:left; -webkit-border-radius: 7px; -moz-border-radius: 7px;   border-radius: 7px; font-size:14px; color:#FFF; font-weight:500; padding:17px 18px}
+.color-blue {background:#298dd0}
+.color-orange {background:#ff5c00}
+.navbar-right a:hover {background:#CCC}
+
+/*===== header =====*/
+
+/*===== banner =====*/
+#banner-container {background:url(../../assets/images/myimages/images/banner.jpg) top center; padding:100px 0}
+#banner-container .search-container h1 {font-family: 'Roboto Slab', serif; font-size:56px; color:#FFF; font-weight:400}
+#banner-container .search-container .search-box { display:block; border:3px solid #8d979f; margin:4% 10% 3% 10%}
+#banner-container .search-container .search-box input[type='text'] {float:left; font-size:18px; color:#888888; background:#FFF; padding:25px 15px; border:none; width:100%}
+#banner-container .search-container .search-box .btn-search {float:left; text-align:center; padding-top:24px; padding-bottom:24px; border:none; width:100%; background:#ff5c00; color:#FFF}
+#banner-container .search-container .search-box .btn-search .fa {font-size:26px}
+#banner-container .search-container h2 {font-family: 'Roboto Slab', serif; font-size:36px; color:#FFF; font-weight:300}
+
+
+
+#banner-container1 {background:url(../images/banner.jpg) top center; padding:0 0 30px 0}
+#banner-container1 .search-container .search-box { display:block; border:3px solid #8d979f; margin:7% 20% 3% 20%}
+#banner-container1 .search-container .search-box input[type='text'] {float:left; font-size:18px; color:#888888; background:#FFF; padding:18px 15px; border:none; width:100%}
+#banner-container1 .search-container .search-box .btn-search {float:left; text-align:center; padding-top:17px; padding-bottom:17px; border:none; width:100%; background:#ff5c00; color:#FFF}
+#banner-container1 .search-container .search-box .btn-search .fa {font-size:26px}
+#banner-container1 .search-container h2 {font-family: 'Roboto Slab', serif; font-size:20px; color:#FFF; font-weight:300}
+/*===== banner =====*/
+
+/*===== games link =====*/
+#games-links {background:#298dd0; padding:18px 0 10px 0}
+#games-links li {float:left; padding-right:30px}
+#games-links li span {padding-right:10px}
+#games-links li a {font-size:16px; color:#FFF}
+#games-links button {background:none; border:none; font-size:16px; color:#FFF}
+#games-links .dropdown-menu {left:-154px; background:#298dd0; box-shadow:none; margin-top:20px; -webkit-border-radius: 0px; -moz-border-radius: 0px;   border-radius: 0px;}
+#games-links .dropdown-menu li {padding:8px 0}
+#games-links .dropdown-menu > li > a:focus, #games-links .dropdown-menu > li > a:hover {background:none}
+#games-links .btn-group.open .dropdown-toggle {background:none}
+/*===== games link =====*/
+/*===== result link =====*/
+#result-container {background:url(../images/inner-banner.jpg) top center; padding:13px 0 33px 0; border:10px solid }
+#result-container h2 {font-size:30px; color:#FFF; text-align:center; font-weight:400}
+#result-container .result-data {padding:30px 0}
+#result-container .result-data  .team{}
+#result-container .result-data  .team .team-flag { width:113px; height:85px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border:3px solid #FFF; overflow:hidden}
+#result-container .result-data  .team .team-name {font-family: 'Roboto Slab', serif; font-size:16px; color:#FFF; padding:7px 0}
+#result-container .result-data .vs-container {padding:15px 0}
+#result-container .result-data  .score {font-family: 'Roboto Slab', serif; font-size:40px; color:#FFF;}
+#result-container .result-data  .vs { width:30px; height:30px; margin:15px 0; background:#2577b9; font-family: 'Roboto Slab', serif; font-size:14px; color:#FFF; line-height:30px}
+#result-container .venu-time {}
+#result-container .venu-time  p {font-size:18px; color:#ffffff; text-align:center; font-weight:300; padding:0; margin:0}
+/*===== result link =====*/
+
+/*===== highlight container =====*/
+#highlight-container {background:#ebeaea; padding:24px 0}
+#highlight-container h2 {font-size:30px; color:#262829; font-weight:400; padding-bottom:20px}
+#highlight-container .video-container .more-videos {background:#111111; padding:10px; margin:10px 0 20px 0}
+#highlight-container .video-container .more-videos li {float:left; margin-right:15px}
+#highlight-container .video-container .more-videos li .video-tumbnail {}
+#highlight-container .video-container .more-videos li .video-title {font-size:12px; color:#FFF; padding:3px 0 0 5px}
+#highlight-container .video-container .more-videos li a.more-video-link {display:block; background:#2577b9; font-family: 'Roboto Slab', serif; font-size:16px; color:#FFF; text-align:center; padding:20px 25px; text-decoration:none}
+#highlight-container .video-container .more-videos li:last-child {margin-right:0}
+
+#highlight-container .ad-container {padding:50px 0 0 0}
+#highlight-container .ad-container .ad {margin-bottom:40px}
+#highlight-container .bottom-txt-container {background:#FFF; margin:25px 0; padding:20px 15px}
+#highlight-container .bottom-txt-container .heading {font-size:16px; color:#000000; padding-bottom:15px}
+#highlight-container .bottom-txt-container p {font-size:12px; color:#3a3838; line-height:18px}
+#highlight-container .comment-container {background:#FFF; margin:30px 0 30px  0; padding:0 0 30px 0}
+#highlight-container .comment-container .comment-now {padding:0 20px}
+#highlight-container .comment-container .comment-now h2 {padding-bottom:0}
+#highlight-container .comment-container .comment-now textarea { width:100%; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border:1px solid #c7c7c7; margin-bottom:20px}
+#highlight-container .comment-container .comment-now input[type='submit']  {background:#2577b9; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding:10px 30px; border:none; font-size:12px; color:#FFF}
+#highlight-container .comment-container .commented-by  { display:block; padding:30px 20px}
+#highlight-container .comment-container .commented-by .user-img { width:100px; height:100px; background:#2577b9; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border:10px solid #ededed; overflow:hidden}
+#highlight-container .comment-container .commented-by .user-img img {width:80px; height:80px}
+#highlight-container .comment-container .commented-by .commet-txt .comment-heading {font-family: 'Roboto Slab', serif; font-size:18px; color:#262829; padding:5px 0 10px 0}
+#highlight-container .comment-container .commented-by .commet-txt .comment-heading span {font-size:14px; color:#696a6b}
+#highlight-container .comment-container .commented-by .commet-txt p {font-size:12px; color:#848484; line-height:24px}
+#highlight-container .comment-container .commented-by .commet-txt p a {color:#2577b9; text-decoration:none}
+
+.stream-container {padding:0 10%}
+.stream-container .stream-type {font-size:14px; color:#FFF; padding:5px 0}
+.stream-container .stream-type a {font-size:14px; color:#FFF}
+.stream-container .rating {font-size:12px; color:#858585}
+.stream-container .positive-vote {width:35px; float:left}
+.stream-container .positive-vote .fa {color:#92c910}
+.stream-container  .negative-vote {width:35px; float:left}
+.stream-container  .negative-vote .fa {color:#ff0000}
+.stream-padding {padding:6px 0 !important}
+.stream-brdr {-webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important;}
+.stream-container .channel {padding:6px 0}
+.stream-container .play-now {padding:6px 0}
+/*===== highlight container =====*/
+
+/*===== welcome =====*/
+#welcome-container {background:#FFF; padding:23px 0}
+#welcome-container h1 {font-size:40px; color:#298dd0; font-weight:400}
+#welcome-container .heading-brdr {display:block; width:200px; height:3px; background:#298dd0; margin:20px auto}
+#welcome-container h1 strong {color:#262829;}
+#welcome-container p {font-size:14px; color:#848484; line-height:30px}
+/*===== welcome =====*/
+
+/*===== table container =====*/
+#table-container {background:#f8f8f8; border-top:1px solid #dddddd; border-bottom:1px solid #dddddd; padding:50px 0}
+#table-container .days {font-size:16px; color:#575757; font-weight:400}
+#table-container .filter-container {background:#262829; padding:8px 14px; -webkit-border-radius: 5px; -moz-border-radius: 5px;   border-radius: 5px; margin:22px 0}
+#table-container .filter-container .selected-match {padding:7px 10px; background:#FFF; color:#575757; font-size:13px}
+#table-container .filter-container label {color:#FFF; font-size:14px; font-weight:300; padding-right:15px}
+#table-container .filter-container select {padding:5px 15px; background:#FFF; color:#575757; font-size:13px; border:none; width:72%}
+
+#table-container .table-content {-webkit-border-radius: 5px; -moz-border-radius: 5px;   border-radius: 5px; overflow:hidden }
+#table-container .table-content .table > thead {background:#298dd0}
+#table-container .table-content .table > thead > tr > th {font-family: 'Roboto Slab', serif; font-size:16px; color:#ffffff; font-weight:400; text-align:center; padding:10px 0}
+#table-container .table-content .date-data {}
+#table-container .table-content .date-data .date-circle {width:39px; height:39px; -webkit-border-radius: 50%; -moz-border-radius: 50%;   border-radius: 50%; color:#858585; font-size:11px; text-align:center; padding:8px 0; margin:0 auto; line-height:12px }
+.white-color {background:#FFF}
+.gray-color {background:#efefef}
+#table-container .table-content .date-data .time-content {font-family: 'Roboto Slab', serif; font-size:12px; color:#858585; padding:3px 0 0 0}
+#table-container .table-content .event-data { font-size:14px; color:#858585; padding:20px 0}
+#table-container .table-content .event-data1 { font-size:14px; color:#858585; padding:10px 0}
+#table-container .table-content .event-data a {-webkit-border-radius: 5px; -moz-border-radius: 5px;   border-radius: 5px; background:#92c910; font-size:12px; text-decoration:none; color:#FFF; padding:2px 13px; margin-left:10px}
+#table-container .table-content .team-data {font-size:14px; color:#858585; padding:20px 0}
+#table-container .table-content .team-data .flag {width:25px; height:17px; margin-right:5px; margin-top:-5px}
+#table-container .table-content .team-data .country-name {margin-top:3px}
+#table-container .table-content .view-event {padding:20px 0}
+#table-container .table-content .view-event a {font-size:14px; color:#262b2e; text-decoration:underline}
+#table-container .table-content .brdr-right {border-right:1px solid #dcdada}
+#table-container .load-all-events a { display:block; text-decoration:none; width:30%; margin:40px auto 0 auto; -webkit-border-radius: 5px; -moz-border-radius: 5px;   border-radius: 5px; background:#262829; font-size:16px; color:#FFF ; padding:15px 0}
+#table-container .table-content .vs1 {font-size:14px; color:#858585; padding:20px 0 20px 0}
+#table-container .table-content .highlight { margin:20px 0}
+#table-container .table-content .highlight a {font-size:12px; color:#fff; text-decoration:underline; background:#2577b9; -webkit-border-radius: 5px; -moz-border-radius: 5px;   border-radius: 5px; padding:5px 10px;}
+/*===== table container =====*/
+
+
+/*===== news container =====*/
+#news-container {background:#FFF; padding:23px 0 50px 0}
+#news-container h2 {font-size:30px; color:#262829; font-weight:400; text-align:center; padding-bottom:20px}
+#news-container .blog-data {}
+#news-container .blog-data h4 {font-size:18px; color:#2a2a2a}
+#news-container .blog-data .blog-date {font-size:12px; color:#878787}
+#news-container .blog-data .blog-img {margin:10px 0}
+#news-container .blog-data p {font-size:12px; color:#5e5e5e; padding-bottom:10px; line-height:24px}
+#news-container .blog-data a { text-decoration:none;  -webkit-border-radius: 5px; -moz-border-radius: 5px;   border-radius: 5px; background:#2577b9; font-size:12px; color:#FFF ; padding:7px 15px}
+/*===== news container =====*/
+
+/*===== footer =====*/
+#footer-container {background:#0b3d5d; padding:25px 0}
+#footer-container .footer-heading {font-size:20px; color:#ffffff; font-weight:600; padding:15px 0}
+#footer-container .about-footer p {font-size:14px; color:#73aed3; padding:20px 0; line-height:26px}
+#footer-container .quick-links {}
+#footer-container .quick-links a { display:block; font-size:15px; color:#73aed3; padding:5px 0; text-decoration:none}
+#footer-container .quick-links a:before {font-family: 'FontAwesome'; content: "\f105"; margin-right:8px}
+#footer-container .quick-links a:hover {color:#FFF}
+#footer-container .ftr-event-data {margin-bottom:12px}
+#footer-container .ftr-event-data .event-img {margin-right:5px}
+#footer-container .ftr-event-data .event-heading {font-family: 'Roboto Slab', serif; font-size:14px; color:#FFF; padding:3px 0 0 0}
+#footer-container .ftr-event-data .event-date {font-size:12px; color:#73aed3; padding:5px 0 0 0}
+/*===== footer =====*/
+
+/*===== copyright =====*/
+#copyright-container {background:#262829; padding:15px 0 5px 0}
+#copyright-container p {font-size:14px; color:#7b8082}
+/*===== copyright =====*/
+
+/*===== responsive =====*/
+@media (max-width: 1200px) {
+	
+}
+@media (max-width: 991px) {	
+	
+}
+
+@media (max-width: 767px) {
+	.navbar-toggle {float:none !important; margin:20px auto; width:44px; display:block}
+	.right-nav-btn li {margin-left:5px}
+	.right-nav-btn li a {font-size:12px; padding:10px;}
+}
+@media (max-width: 480px) {
+	
+}
+@media (max-width: 320px) {
+	
+}
